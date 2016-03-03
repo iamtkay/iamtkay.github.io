@@ -87,4 +87,16 @@
 
 .navbar > ul > li {
   display: table-cell;
+  line-height: 60px;
+  padding: 0px 55px;
+  border-right: 1px solid white;
 }
+
+.navbar > ul > li:hover {
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+
+
+  
