@@ -13,7 +13,7 @@
   background-color: #000;
   position: relative;
   z-index: 1;
-  border-top: 1px solid white;
+  border-top: 10px solid white;
 }
 
 .navbar {
@@ -24,7 +24,7 @@
   position: fixed;
   top: 0px;
   z-index: 10;
-  border-bottom: 1px solid #fff;
+  border-bottom: 10px solid #fff;
 }
 
 .main-heading-container {
@@ -51,9 +51,12 @@
     -ms-transform: translateY(-80%);
     transform: translateY(-80%);
     font-size: 175px;
-    font-family: sans-serif;
+    font-family: arial black;
     letter-spacing: 10px;
     color: white;
+    font-weight: bold;
+    background: black;
+    opacity: 0.5;
 }
 
 .main-heading:hover {
@@ -73,7 +76,7 @@
 }
 
 .quotes-container {
-  top: 65px;
+  top: 75px;
   display: block;
   width: 100%;
   position: absolute;
@@ -99,7 +102,7 @@
 }
 
 .navbar > ul > li:hover {
-  background: white;
+  background: gray;
   cursor: pointer;
   color: black;
 }
