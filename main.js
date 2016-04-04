@@ -19,7 +19,7 @@ $(document).ready(function(){
   // =========
   $('.navbar > ul > li, .main-heading').click(function(){
     $('html, body').animate({
-        scrollTop: 710
+        scrollTop: 432
     }, 500);
   });
 
