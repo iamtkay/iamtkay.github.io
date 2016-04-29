@@ -1,3 +1,6 @@
+/*================
+HEADER AREA
+=================*/
 * {
   margin: 0px;
   padding: 0px;
@@ -55,7 +58,7 @@
     letter-spacing: 10px;
     color: white;
     font-weight: bold;
-    background: black;
+    /*background: black;*/
     opacity: 0.5;
 }
 
@@ -128,6 +131,47 @@
   background: black;
   opacity: 0.8;
 }
+
+/*================
+MAIN CONTENT AREA
+=================*/
+
+.main-content {
+  position: absolute;
+  top: 30%;
+  width: 80%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 10px 150px;
+  font-size: 20px;
+  font-family: arial;
 }
 
+.social-icons {
+  position: fixed;
+  right: 30px;
+  top: 100px;
+  color: white;
+  z-index: 999999999;
+  font-size: 50px;
+}
+
+.social-icons .fa {
+  display: block;
+  cursor: pointer;
+  color: gray;
+}
+
+.social-icons .fa:hover {
+  color: red;
+}
+
+.social-icons > a {
+  text-decoration: none;
+}
+
+.dark-highlight {
+
+}
   
